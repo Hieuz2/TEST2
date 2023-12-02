@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    width: 1920px;
+    height: 1260px;
+    background: var(--secondary-background-1, #FFF9F5);
+    
+
+}
+
+.box1 {
+    
+    justify-content: center;
+    margin-top: 66px;
+    margin-bottom: 76px;
+    color: var(--secondary-color-1, #462B20);
+    text-align: center;
+    
+    
+    /* Heading/H4 */
+    font-family: Instrument Serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 61px; /* 105.172% */
+    letter-spacing: -0.58px;
+}
+
+.box2 {
+    display: flex;
+    gap: 117px;
+    margin-left: 242px;
+    margin-right: 295px;
+    
+}
+
+.anh1 {
+    background: url(./img/Rectangle\ 75.png) lightgray 50% / 100% 100% no-repeat;
+    width: 560px; 
+    height: 315px;
+}
+
+.anh2{
+    background: url(./img/buatiec.png) lightgray 50% / 100% 100% no-repeat;
+    width: 706px; 
+    height: 991px;
+}
+
+.text2 {
+    width: 499px;
+    color: var(--secondary-color-2, rgba(66, 41, 31, 0.85));
+    display: none;
+/* Body/15px/Subtle */
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23px; /* 153.333% */
+}
+
+.box21 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin-top: 54px;
+}
+
+.dongke {
+    width: 560px;
+    height: 1px;
+    background: #F3EAE5;
+} 
+
+.box22 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+.box23 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 18px;
+}
+
+
+
+.box24 {
+    display: flex;
+}
+
+.text1 {
+    flex: 1 0 0;
+    color: var(--secondary-color-1, #462B20);
+    /* Heading/H6 */
+    font-family: Instrument Serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 107.692% */
+    width: 536px;
+    height: 28px;
+}
+
+.text2.active {
+    display: block;
+}
+
+@import url('https://rsms.me/inter/inter.css');
+
